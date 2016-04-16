@@ -1,6 +1,5 @@
 # GridComponent-for-Framer
-A module that creates a Grid Component for you! The module looks into your 'images' folder for pngs numbered from 1 to n. The folder path, and a lot of other options, can be changed to your needs.
-
+A module that creates a Grid Component for you! The module looks into your 'images' folder for pngs numbered from 1 to n. The folder path, and other options, can be changed to your needs.
 
 
 ## How to use
@@ -17,7 +16,7 @@ A module that creates a Grid Component for you! The module looks into your 'imag
 4. Create your grid!
 ```coffeescript
 myGrid = new GridComponent
-	items: 10
+  items: 10
 ```
 
 
