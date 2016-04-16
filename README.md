@@ -13,7 +13,7 @@ A module that creates a Grid Component for you! The module looks into your 'imag
 {GridComponent} = require "GridComponent"
 ```
 
-4. Create your grid!
+##### Create your grid!
 ```coffeescript
 myGrid = new GridComponent
   items: 10
