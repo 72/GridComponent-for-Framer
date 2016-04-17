@@ -2,6 +2,9 @@
 A module that creates a Grid Component for you! The module looks into your 'images' folder for pngs numbered from 1 to n. The folder path, and other options, can be changed to your needs.
 
 
+![GridComponent](http://setentaydos.com/GridComponent.jpg)
+
+
 ## How to use
 
 1. Create a new Framer project.
