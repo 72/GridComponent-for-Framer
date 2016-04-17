@@ -42,14 +42,14 @@ class exports.GridComponent extends Layer
     # Vars
     @tile = null
     @gridItems = []
-    @beingBuild = false
+    @buildingLayout = false
     # Run
     @setup()
 
 
   setup: () ->
-    if @beingBuild is false
-      @beingBuild = true
+    if @buildingLayout is false
+      @buildingLayout = true
       if @gridItems.length > 0
         @destroyPrevious()
       @buildLayout()
@@ -88,7 +88,6 @@ class exports.GridComponent extends Layer
         @tile = layer
         @emit "TileClick"
 
-
       @gridItems.push _tile
     # </ Loop >
 
@@ -101,7 +100,7 @@ class exports.GridComponent extends Layer
       @parent.parent.updateContent()
 
     # End
-    @beingBuild = false
+    @buildingLayout = false
 
 
   destroyPrevious: () ->
